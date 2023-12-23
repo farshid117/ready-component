@@ -1,0 +1,1 @@
+ <script src="https://files.free-learn.ir/Tryitself/javascript/intro/files/sweetalert2.js"></script>
