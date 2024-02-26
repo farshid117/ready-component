@@ -58,8 +58,7 @@ console.log(app.get("env"));
 throw new Error("Throw Sync Error") */
 
 //todo: Connect TO MongoDB
-mongoose
-  .connect("mongodb://localhost:27017/courseApiNodejs", {
+mongoose.connect("mongodb://localhost:27017/courseApiNodejs", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,

@@ -1,11 +1,11 @@
 
-var Kavenegar = require("kavenegar");
+const Kavenegar = require("kavenegar");
 const NodeCache = require("node-cache");
-var api = Kavenegar.KavenegarApi({
+const api = Kavenegar.KavenegarApi({
   apikey: 
   "746669796B634A5578756F425A4F4851596842644C41306D775368497972433078764150544A51414F36773D",
 });
-const myCache = new NodeCache();
+const myCache  = new NodeCache();
 const myCache2 = new NodeCache();
 
 const registerUser = async (req, res) => {
@@ -18,9 +18,9 @@ const registerUser = async (req, res) => {
       phone: req.body.phone,
     });
 
-    var number = Math.floor(Math.random() * 90000 + 10000);
-    myCache.set(config.get("UNIQUEKEY"), number);
-    myCache2.set(config.get("UNIQUEKEY2"), newUser);
+    let number = Math.floor(Math.random() * 90000 + 10000);
+    myCache.set(config.get("MYCACHEKEY1"), number);
+    myCache2.set(config.get("MYCACHEKEY2"), newUser);
 
     api.Send(
       {
