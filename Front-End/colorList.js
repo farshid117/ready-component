@@ -5,8 +5,11 @@ export const LOGOCOLOR1 =  "#00c2d1";
 export const CYAN =        "#8be9fd";
 export const CURRENTLINE = "#44475a";
 export const COMMENT =     "#6272a4";
+
 export const YELLOW =      "#f9e900";
 export const YELLOW2 =     "#f1fa8c";
+export const YELLOW3 =     "#ffc44d";
+
 export const RED =         "#ff5555";
 export const GHAHVEI =     "#f6af65";
 
