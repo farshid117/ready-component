@@ -31,6 +31,10 @@ export const GREEN =       "#50fa7b";
 export const LOGOCOLOR2 =  "#02BDB2";
 
 /* bootsrap default color */
+export const white =       "#ffffff";
+export const light =       "#f8f9fa";
+export const dark =        "#343a40";
+export const gray =        "#6c757d";
 export const purple =      "#6610f2";
 export const purple2 =     "#6f42c1";
 export const pink =        "#e83e8c";
@@ -40,14 +44,27 @@ export const yellow =      "#ffc107";
 export const green =       "#28a745";
 export const teal =        "#20c997";
 export const cyan =        "#17a2b8";
-export const white =       "#ffffff";
-export const gray =        "#6c757d";
-export const grayDark =    "#343a40";
+
 export const primary =     "#007bff";
 export const secondary =   "#6c757d";
 export const success =     "#28a745";
 export const info =        "#17a2b8";
 export const warning =     "#ffc107";
 export const danger =      "#dc3545";
-export const light =       "#f8f9fa";
-export const dark =        "#343a40";
+
+
+/* default color with reserved name */
+
+/* 
+color: crimson;
+color: coral;
+color: darkorange;
+color: darkorange;
+color: gold;
+color: gold;
+color: khaki;
+color: khaki;
+color: slategrey;
+*/
+
+
