@@ -30,7 +30,7 @@ export const GREEN =       "#50fa7b";
 
 export const LOGOCOLOR2 =  "#02BDB2";
 
-
+/* bootsrap default color */
 export const purple =      "#6610f2";
 export const purple2 =     "#6f42c1";
 export const pink =        "#e83e8c";
